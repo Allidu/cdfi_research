@@ -1,7 +1,6 @@
 # Jobago and the U.S. CDFI Market
 ## Research Report: Market Structure, Lending Focus and Next-Stage Priorities
 
-*Prepared for Jobago leadership · October 2026*
 *Data as of: CDFI Fund certified list 17 Sep 2026 · FDIC and NCUA Call Reports 30 Jun 2026 · IRS Form 990 filings for tax years ending 2023–2026*
 
 ---

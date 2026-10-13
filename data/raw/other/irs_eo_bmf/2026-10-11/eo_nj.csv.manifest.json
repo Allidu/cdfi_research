@@ -1,0 +1,11 @@
+{
+  "file": "eo_nj.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_nj.csv",
+  "retrieved_at": "2026-10-11T18:29:57+00:00",
+  "sha256": "fdf809f7ada8dde6004d3e2f9999588ef425c77f8e10606077b2acd544b8030c",
+  "bytes": 9404514,
+  "last-modified": "Mon, 07 Sep 2026 04:13:05 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "NJ"
+}

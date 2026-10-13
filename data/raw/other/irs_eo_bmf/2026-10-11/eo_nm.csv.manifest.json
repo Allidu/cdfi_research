@@ -1,0 +1,11 @@
+{
+  "file": "eo_nm.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_nm.csv",
+  "retrieved_at": "2026-10-11T18:29:58+00:00",
+  "sha256": "bb2000c7bbdf4e1c92a25b7d2953e4b8f8707ed4e3dac6ddca90dc559311ec23",
+  "bytes": 1951177,
+  "last-modified": "Mon, 07 Sep 2026 04:13:06 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "NM"
+}

@@ -1,0 +1,11 @@
+{
+  "file": "eo_va.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_va.csv",
+  "retrieved_at": "2026-10-11T18:30:20+00:00",
+  "sha256": "3bd444644f373605b4c00d67787f0097138aa4e8a85f7be35018f51527a830b7",
+  "bytes": 9508327,
+  "last-modified": "Mon, 07 Sep 2026 04:13:22 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "VA"
+}

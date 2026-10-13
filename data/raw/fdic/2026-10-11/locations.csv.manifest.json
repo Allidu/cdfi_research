@@ -1,0 +1,9 @@
+{
+  "file": "locations.csv",
+  "source_url": "https://api.fdic.gov/banks/locations?fields=CERT%2CUNINUM%2CNAME%2COFFNAME%2COFFNUM%2CMAINOFF%2CADDRESS%2CCITY%2CSTALP%2CZIP%2CCOUNTY%2CSTCNTY%2CLATITUDE%2CLONGITUDE%2CSERVTYPE%2CRUNDATE&limit=10000&offset=70000&sort_by=UNINUM&sort_order=ASC&format=json",
+  "retrieved_at": "2026-10-11T19:02:08+00:00",
+  "sha256": "7cca7b8296d4c73a9e83f5eb9b46c6afd39a68d64922ca35fb96c852589c03a2",
+  "bytes": 13573238,
+  "rows": 78023,
+  "endpoint": "locations"
+}

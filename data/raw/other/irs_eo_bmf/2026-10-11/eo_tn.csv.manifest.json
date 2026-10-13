@@ -1,0 +1,11 @@
+{
+  "file": "eo_tn.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_tn.csv",
+  "retrieved_at": "2026-10-11T18:30:12+00:00",
+  "sha256": "c111c263cd599b0e41797c5a478e1f2d7514145c6408e3d8d29ff7af6550c105",
+  "bytes": 6688415,
+  "last-modified": "Mon, 07 Sep 2026 04:13:19 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "TN"
+}

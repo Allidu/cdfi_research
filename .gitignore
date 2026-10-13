@@ -1,0 +1,22 @@
+# --- Environment / OS clutter ---
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# --- Large, regenerable source data (rebuild with ./run_pipeline.sh) ---
+# Raw downloads are ~750 MB (IRS 990 index files alone are 50-90 MB each).
+# Keep only the small provenance manifests (URL, retrieval date, checksum).
+data/raw/**
+!data/raw/**/
+!data/raw/**/*.manifest.json
+data/interim/
+
+# Parquet files duplicate the committed CSVs
+data/processed/*.parquet
+
+# --- Internal-only working documents (not for public/client distribution) ---
+# Presenter prep notes, including "corrections before presenting" and Q&A prep.
+research/jobago_presentation_evidence_guide.md

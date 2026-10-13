@@ -1,0 +1,11 @@
+{
+  "file": "eo_az.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_az.csv",
+  "retrieved_at": "2026-10-11T18:29:11+00:00",
+  "sha256": "e40bcb7655dad227ffeb1c87306590964d6917ac17ecf2966009d8718b63d865",
+  "bytes": 5392263,
+  "last-modified": "Mon, 07 Sep 2026 04:12:04 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "AZ"
+}

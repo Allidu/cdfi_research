@@ -1,0 +1,11 @@
+{
+  "file": "eo_wi.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_wi.csv",
+  "retrieved_at": "2026-10-11T18:30:24+00:00",
+  "sha256": "4fff0919f7fd84c0ae6307fd5448989c92f0f24d8a0541ba0b4984f9812a25b2",
+  "bytes": 6917801,
+  "last-modified": "Mon, 07 Sep 2026 04:13:25 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "WI"
+}

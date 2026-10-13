@@ -1,0 +1,8 @@
+market_segment,n_cdfis,n_high_conf,total_assets_usd_dedup,consumer_loans_usd_dedup,individual_borrower_loans_usd_dedup,members_total,n_native_cdfis,n_multi_focus,pct_of_all_cdfis
+A. Consumer-focused,232,181,105419789207.0,43353672054.7997,66939500144.4391,7462093.0,16,157,18.1
+B. Microenterprise / very small business,115,89,3345946082.0,,,,5,105,9.0
+C. Mortgage / homeownership,277,150,106727395042.0,16529096003.81,53616333697.69781,4277239.0,18,237,21.6
+D. Small business / commercial / agricultural,171,119,12328326206.0,96070324.10000001,768760099.5,,9,99,13.3
+"E. Real estate, housing development & community facilities (project finance)",298,108,109123054413.0,3210680062.3815002,17534844140.3325,358019.0,6,232,23.3
+F. Intermediary / venture / other,13,6,2964039140.0,,,,0,3,1.0
+U. Unclassified (insufficient public evidence),175,0,602135745.0,,,,11,0,13.7

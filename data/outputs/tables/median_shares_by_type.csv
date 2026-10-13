@@ -1,0 +1,4 @@
+institution_type,share_consumer_pct,share_mortgage_homeownership_pct,share_microenterprise_pct,share_small_business_pct,share_commercial_business_pct,share_commercial_real_estate_pct,share_residential_housing_development_pct,share_community_facilities_pct,share_intermediary_finance_pct,share_venture_equity_pct,share_agriculture_pct,share_other_pct,share_individual_borrowers_pct,share_business_borrowers_pct,share_property_project_borrowers_pct,share_financial_other_borrowers_pct,small_business_exposure_pct
+Bank Holding Company,3.2,27.1,1.7,3.9,3.1,34.6,6.0,,,,5.8,0.4,31.5,20.0,42.7,0.4,17.0
+Bank or Thrift,3.2,26.5,1.6,3.9,3.1,33.8,6.3,,,,6.1,0.4,30.3,19.8,41.1,0.4,16.7
+Credit Union,52.4,34.8,,0.1,0.0,2.2,,,,,,0.0,96.7,0.1,2.2,0.0,

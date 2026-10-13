@@ -1,0 +1,11 @@
+{
+  "file": "eo_ri.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_ri.csv",
+  "retrieved_at": "2026-10-11T18:30:08+00:00",
+  "sha256": "40e1f58818b25becde0ba831c83a63e28b59cbddd846a6eddf0b4cb014d55682",
+  "bytes": 1169691,
+  "last-modified": "Mon, 07 Sep 2026 04:13:14 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "RI"
+}

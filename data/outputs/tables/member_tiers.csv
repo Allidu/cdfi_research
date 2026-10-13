@@ -1,0 +1,6 @@
+member_tier,n,members,median_consumer_share
+(no data),81,0.0,
+L: 50K-200K,55,4866250.0,43.51
+M: 10K-50K,113,2509830.0,50.21
+S: <10K members,107,423756.0,65.33
+XL: >=200K,11,4297515.0,48.73

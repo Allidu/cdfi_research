@@ -1,0 +1,25 @@
+market_segment,institution_type,n_cdfis,pct_of_type,n_high_conf,total_assets_usd_dedup,median_assets_usd,total_loans_usd_dedup,loans_basis,consumer_loans_usd_dedup,individual_borrower_loans_usd_dedup,members_total,members_median,median_consumer_share_pct,median_mortgage_share_pct,median_small_business_exposure_pct,n_states_hq,n_native_cdfis,n_multi_focus
+A. Consumer-focused,Bank Holding Company,1,0.6,1,,97234000.0,,Call Report total loans,,,,,87.5,0.6,11.2,1,0,0
+A. Consumer-focused,Bank or Thrift,1,0.5,1,97234000.0,97234000.0,77838000.0,Call Report total loans,68116033.8,68544142.8,,,87.5,0.6,11.2,1,0,0
+A. Consumer-focused,Credit Union,184,50.1,157,104762785856.0,146049893.0,76717470291.0,Call Report total loans,43285556020.999695,66870956001.6391,7462093.0,12679.5,66.1,25.1,,35,3,140
+A. Consumer-focused,Loan Fund,46,8.2,22,559769351.0,4285610.0,224071123.0,990 notes & loans receivable (EOY),,,,,,,,26,13,17
+B. Microenterprise / very small business,Loan Fund,115,20.5,89,3345946082.0,21021710.5,1510066586.0,990 notes & loans receivable (EOY),,,,,,,,41,5,105
+C. Mortgage / homeownership,Bank Holding Company,50,31.2,12,850385000.0,283461500.0,715039000.0,Call Report total loans,47907613.0,311900011.8,,,5.5,40.4,18.0,11,2,49
+C. Mortgage / homeownership,Bank or Thrift,59,32.1,17,28037638000.0,282264000.0,18573104000.0,Call Report total loans,824368637.0,8795248893.000002,,,5.2,42.3,17.8,11,3,57
+C. Mortgage / homeownership,Credit Union,94,25.6,63,70429535877.0,253977702.5,53037729708.0,Call Report total loans,15656819753.81,44509184792.897804,4277239.0,16028.0,32.9,56.1,,34,3,93
+C. Mortgage / homeownership,Loan Fund,74,13.2,58,7409836165.0,17993576.0,1137969929.0,990 notes & loans receivable (EOY),,,,,,,,33,10,38
+D. Small business / commercial / agricultural,Bank Holding Company,15,9.4,5,,224676000.0,,Call Report total loans,,,,,3.2,22.6,13.6,7,0,15
+D. Small business / commercial / agricultural,Bank or Thrift,21,11.4,8,5327099000.0,210778000.0,3763510000.0,Call Report total loans,96070324.10000001,768760099.5,,,2.6,20.0,11.0,7,0,21
+D. Small business / commercial / agricultural,Loan Fund,131,23.4,103,6953524139.0,12480044.0,2086150036.0,990 notes & loans receivable (EOY),,,,,,,,44,9,60
+D. Small business / commercial / agricultural,Venture Capital Fund,4,44.4,3,47703067.0,13278536.0,3388691.0,990 notes & loans receivable (EOY),,,,,,,,4,0,3
+"E. Real estate, housing development & community facilities (project finance)",Bank Holding Company,83,51.9,23,495245000.0,595120000.0,306757000.0,Call Report total loans,4304842.899999999,67966236.7,,,2.3,22.3,16.8,18,1,83
+"E. Real estate, housing development & community facilities (project finance)",Bank or Thrift,98,53.3,26,90930284000.0,639447000.0,62132866000.0,Call Report total loans,1996161697.8000002,15160546727.4,,,2.4,22.7,16.6,22,1,97
+"E. Real estate, housing development & community facilities (project finance)",Credit Union,8,2.2,2,5901437603.0,681152573.5,4462316159.0,Call Report total loans,1210213521.6815,2306331176.2325,358019.0,46897.0,26.4,22.3,,8,0,8
+"E. Real estate, housing development & community facilities (project finance)",Loan Fund,108,19.3,57,11796087810.0,49877910.0,6486203260.0,990 notes & loans receivable (EOY),,,,,,,,36,4,44
+"E. Real estate, housing development & community facilities (project finance)",Venture Capital Fund,1,11.1,0,,,,990 notes & loans receivable (EOY),,,,,,,,1,0,0
+F. Intermediary / venture / other,Loan Fund,9,1.6,5,2895227575.0,91040658.0,804858092.0,990 notes & loans receivable (EOY),,,,,,,,8,0,2
+F. Intermediary / venture / other,Venture Capital Fund,4,44.4,1,68811565.0,34405782.5,4881801.0,990 notes & loans receivable (EOY),,,,,,,,4,0,1
+U. Unclassified (insufficient public evidence),Bank Holding Company,11,6.9,0,,,,Call Report total loans,,,,,,,,6,0,0
+U. Unclassified (insufficient public evidence),Bank or Thrift,5,2.7,0,,,,Call Report total loans,,,,,,,,3,0,0
+U. Unclassified (insufficient public evidence),Credit Union,81,22.1,0,,,,Call Report total loans,,,,,,,,5,0,0
+U. Unclassified (insufficient public evidence),Loan Fund,78,13.9,0,602135745.0,6692919.5,178450091.0,990 notes & loans receivable (EOY),,,,,,,,34,11,0

@@ -1,0 +1,12 @@
+activity_flag,Bank Holding Company,Bank or Thrift,Credit Union,Loan Fund,Venture Capital Fund
+agriculture_flag,46,57,0,15,0
+commercial_business_flag,17,23,1,14,0
+commercial_real_estate_flag,143,170,95,42,0
+community_facilities_flag,0,0,0,60,0
+consumer_lending_flag,12,14,278,90,0
+housing_development_flag,31,37,0,131,0
+intermediary_finance_flag,0,0,0,22,0
+microenterprise_flag,3,3,0,129,0
+mortgage_lending_flag,139,161,239,108,0
+small_business_flag,13,13,6,266,5
+venture_flag,0,0,0,18,4

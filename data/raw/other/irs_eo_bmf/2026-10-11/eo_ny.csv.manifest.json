@@ -1,0 +1,11 @@
+{
+  "file": "eo_ny.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_ny.csv",
+  "retrieved_at": "2026-10-11T18:30:01+00:00",
+  "sha256": "ad95c07db1ab7563fcdc69d8ea194bb15d6a9d60ed80c036542eb8a15a28ff61",
+  "bytes": 21763654,
+  "last-modified": "Mon, 07 Sep 2026 04:13:08 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "NY"
+}

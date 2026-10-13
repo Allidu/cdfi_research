@@ -1,0 +1,11 @@
+{
+  "file": "index_2024.csv",
+  "source_url": "https://apps.irs.gov/pub/epostcard/990/xml/2024/index_2024.csv",
+  "retrieved_at": "2026-10-11T19:03:47+00:00",
+  "sha256": "c00051a33f65d408ea7f6d5fa008c7f82f9bc6223751f4a6e29d59f5e17f826d",
+  "bytes": 91056866,
+  "last-modified": "Thu, 06 Mar 2025 14:03:55 GMT",
+  "content-type": "text/csv",
+  "etag": "\"56d6ae2-62facf9fe2618\"",
+  "index_year": 2024
+}

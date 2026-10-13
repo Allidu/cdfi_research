@@ -1,0 +1,11 @@
+{
+  "file": "eo_ky.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_ky.csv",
+  "retrieved_at": "2026-10-11T18:29:42+00:00",
+  "sha256": "874725ce526f96c4298b8e7775f7de8c059c7c1dba417815e85bc3c515502cda",
+  "bytes": 3969622,
+  "last-modified": "Mon, 07 Sep 2026 04:12:25 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "KY"
+}

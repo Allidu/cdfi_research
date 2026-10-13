@@ -1,0 +1,51 @@
+cdfi_id,cdfi_name,hq_state,total_assets_usd,small_business_exposure_pct,small_business_loan_count_banks,primary_lending_focus
+CDFI00016,Commonwealth National Bank,AL,78539000.0,74.6,155.0,commercial_real_estate
+CDFI00009,Bank of Vernon,AL,445356000.0,53.7,1330.0,commercial_real_estate
+CDFI00226,New Haven Bank,CT,200027000.0,47.84,294.0,commercial_real_estate
+CDFI00008,Bank of Moundville,AL,144592000.0,40.4,278.0,mortgage_homeownership
+CDFI00714,Richton Bank and Trust Company,MS,51968000.0,38.89,46.0,commercial_real_estate
+CDFI00056,Connect Bank,AR,123872000.0,37.35,437.0,commercial_real_estate
+CDFI00658,Commerce Bank,MS,167901000.0,37.32,1173.0,mortgage_homeownership
+CDFI00073,GATEWAY BANK,AR,180978000.0,37.21,286.0,mortgage_homeownership
+CDFI01160,Greater State Bank,TX,180242000.0,37.13,432.0,commercial_real_estate
+CDFI00306,Southeast First National Bank,GA,74914000.0,34.66,39.0,mortgage_homeownership
+CDFI00727,Unity Bank of Mississippi,MS,281778000.0,34.04,358.0,commercial_real_estate
+CDFI00429,Farmers State Bank & Trust Co.,LA,174679000.0,31.6,320.0,commercial_real_estate
+CDFI00721,"The Commercial Bank, Kemper County DeKalb, Mississippi",MS,295482000.0,31.59,425.0,commercial_real_estate
+CDFI01250,Bay Bank,WI,315703000.0,31.12,350.0,mortgage_homeownership
+CDFI00441,Guaranty Bank and Trust Company of Delhi,LA,457395000.0,30.62,368.0,mortgage_homeownership
+CDFI01191,The First State Bank,TX,121414000.0,30.56,263.0,agriculture
+CDFI00752,Mechanics and Farmers Bank,NC,475992000.0,30.27,430.0,commercial_real_estate
+CDFI00472,Tensas State Bank,LA,185479000.0,29.35,392.0,agriculture
+CDFI00703,Merchants & Planters Bank,MS,198973000.0,29.05,229.0,commercial_real_estate
+CDFI00015,"Commercial Bank of Ozark, The",AL,115195000.0,28.44,154.0,commercial_business
+CDFI00020,First National Bank and Trust,AL,238604000.0,27.83,384.0,mortgage_homeownership
+CDFI00167,Neighborhood National Bank,CA,227987000.0,27.64,125.0,commercial_real_estate
+CDFI00060,FBT Bank & Mortgage (Fordyce Bank & Trust Company),AR,263592000.0,27.32,621.0,mortgage_homeownership
+CDFI00609,Century Bank of the Ozarks,MO,305305000.0,27.12,743.0,commercial_real_estate
+CDFI01274,"Guaranty Bank, Inc.",WV,152386000.0,27.11,165.0,commercial_real_estate
+CDFI00707,Pike National Bank,MS,408846000.0,25.5,795.0,commercial_real_estate
+CDFI00952,Asian Bank,PA,685892000.0,25.4,443.0,commercial_real_estate
+CDFI00395,Bank of Oak Ridge,LA,138601000.0,25.39,192.0,commercial_real_estate
+CDFI01157,Freedom Bank,TX,301213000.0,25.39,260.0,commercial_real_estate
+CDFI00394,Bank of Commerce & Trust Co.,LA,377875000.0,24.91,351.0,commercial_real_estate
+CDFI00029,Merchants & Farmers Bank of Greene County,AL,135865000.0,24.14,344.0,mortgage_homeownership
+CDFI00668,Farmers and Merchants Bank,MS,565839000.0,23.72,1411.0,mortgage_homeownership
+CDFI00473,The Bank of Commerce,LA,81481000.0,22.42,67.0,commercial_real_estate
+CDFI00678,First Southern Bank,MS,317340000.0,22.31,311.0,mortgage_homeownership
+CDFI00637,Bank of Forest,MS,296291000.0,22.21,717.0,commercial_real_estate
+CDFI01117,Decatur County Bank,TN,325642000.0,22.17,584.0,commercial_real_estate
+CDFI00650,Citizens Bank,MS,466261000.0,22.07,1061.0,mortgage_homeownership
+CDFI00412,CLB The Community Bank,LA,350865000.0,22.0,541.0,commercial_real_estate
+CDFI00638,Bank of Franklin,MS,302334000.0,21.88,546.0,mortgage_homeownership
+CDFI00640,Bank of Kilmichael,MS,341645000.0,21.85,828.0,mortgage_homeownership
+CDFI00644,BankOkolona,MS,359590000.0,21.72,967.0,mortgage_homeownership
+CDFI00639,Bank of Holly Springs,MS,587508000.0,21.69,1637.0,commercial_real_estate
+CDFI00042,SOUTHERN INDEPENDENT BANK,AL,395277000.0,21.35,377.0,mortgage_homeownership
+CDFI00515,Harbor Bank of Maryland,MD,383224000.0,21.2,173.0,commercial_real_estate
+CDFI00460,Plaquemine Bank & Trust Company,LA,218261000.0,21.15,220.0,commercial_real_estate
+CDFI00928,Security State Bank of Oklahoma,OK,388240000.0,21.1,704.0,mortgage_homeownership
+CDFI00448,Landmark Bank,LA,229830000.0,20.96,316.0,mortgage_homeownership
+CDFI01122,Home Banking Company,TN,123957000.0,20.79,180.0,mortgage_homeownership
+CDFI00418,Concordia Bank and Trust Co.,LA,667023000.0,20.68,598.0,commercial_real_estate
+CDFI00635,BANK OF BROOKHAVEN,MS,262205000.0,20.09,302.0,commercial_real_estate

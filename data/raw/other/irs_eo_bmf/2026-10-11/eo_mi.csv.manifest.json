@@ -1,0 +1,11 @@
+{
+  "file": "eo_mi.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_mi.csv",
+  "retrieved_at": "2026-10-11T18:29:48+00:00",
+  "sha256": "b3dc1e856298332c4759ed5e446e19680b55c661f77145a837f901e8fc29f541",
+  "bytes": 9747645,
+  "last-modified": "Mon, 07 Sep 2026 04:12:38 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "MI"
+}

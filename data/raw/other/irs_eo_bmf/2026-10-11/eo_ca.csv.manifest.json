@@ -1,0 +1,11 @@
+{
+  "file": "eo_ca.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_ca.csv",
+  "retrieved_at": "2026-10-11T18:29:14+00:00",
+  "sha256": "1b6a88df3f8cf70e7516f6d3537acaa77de8079dd3ded183b711d4f3bb458adf",
+  "bytes": 35138893,
+  "last-modified": "Mon, 07 Sep 2026 04:12:06 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "CA"
+}

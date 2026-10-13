@@ -1,0 +1,11 @@
+{
+  "file": "eo_md.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_md.csv",
+  "retrieved_at": "2026-10-11T18:29:45+00:00",
+  "sha256": "c683fd488ae78d6680d1e870e4cadfb7843a9c6d3991e6d0c16f9ae8c34937ec",
+  "bytes": 7726653,
+  "last-modified": "Mon, 07 Sep 2026 04:12:30 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "MD"
+}

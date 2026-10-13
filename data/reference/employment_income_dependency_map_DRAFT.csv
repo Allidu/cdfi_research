@@ -1,0 +1,14 @@
+standardized_category,standardized_subcategory,proposed_dependency,status,rationale
+consumer,credit_card,high,DRAFT - not applied,Unsecured revolving debt repaid from household cash flow; wages are the dominant source for most borrowers
+consumer,other_unsecured,high,DRAFT - not applied,No collateral; repayment depends directly on personal income
+consumer,payday_alternative,high,DRAFT - not applied,Small-dollar loans to liquidity-constrained members; typically wage-timed repayment
+consumer,student,high,DRAFT - not applied,Repayment depends on borrower's post-school earnings
+consumer,auto / auto_new / auto_used,high,DRAFT - not applied,Installment loans to individuals; auto is often needed to keep employment (two-way link)
+consumer,leases / other_secured_non_re / other_revolving / other_consumer,high,DRAFT - not applied,Loans to individuals repaid from personal income
+mortgage_homeownership,first_lien / junior_lien / heloc,moderate,DRAFT - not applied,Repaid from household income but collateralized and longer-term; FDIC 1-4 family also includes some investor loans
+microenterprise,(loan funds only - no public structured data yet),high,DRAFT - not applied,Sole proprietors' business and household income are intertwined; loss of owner's other job or customers hits repayment
+commercial_business,commercial_and_industrial / commercial_not_re_secured,moderate-low,DRAFT - not applied,Repayment from business cash flow; small-business portion (banks: LNCI4) is closer to owner income than large C&I
+commercial_real_estate,all,low,DRAFT - not applied,Repayment from property/business cash flow; owner-occupied CRE somewhat more owner-dependent
+residential_housing_development,multifamily / 1_4_family_construction,low,DRAFT - not applied,Project finance; repayment from rents/sales not an individual borrower's wages
+agriculture,all,low-moderate,DRAFT - not applied,Repayment from farm income; family farms may rely on off-farm wages but not observable
+other,all,unknown,DRAFT - not applied,Municipal / depository / nondepository FI loans / leases / residual - not individual borrowers

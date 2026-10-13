@@ -1,0 +1,41 @@
+source,source_field_amount,source_field_count,source_category,standardized_category,standardized_subcategory,additive,notes
+FDIC,LNRERSFM,,"Loans secured by 1-4 family residential properties: closed-end, first liens",mortgage_homeownership,first_lien_1_4_family,TRUE,Call Report RC-C 1.c.(2)(a). Predominantly owner-occupied home mortgages but also includes 1-4 family investor (rental) loans; regulator does not split.
+FDIC,LNRERSF2,,"Loans secured by 1-4 family residential properties: closed-end, junior liens",mortgage_homeownership,junior_lien_1_4_family,TRUE,RC-C 1.c.(2)(b).
+FDIC,LNRELOC,,Revolving open-end loans secured by 1-4 family residential properties (HELOCs),mortgage_homeownership,heloc,TRUE,RC-C 1.c.(1).
+FDIC,LNRECNFM,,1-4 family residential construction loans,residential_housing_development,1_4_family_construction,TRUE,RC-C 1.a.(1). Can include owner-builder loans to individuals as well as builder/developer loans; regulator does not split. Treated as housing development.
+FDIC,LNRECNOT,,Other construction loans and all land development and other land loans,commercial_real_estate,other_construction_land_development,TRUE,RC-C 1.a.(2).
+FDIC,LNREMULT,,Loans secured by multifamily (5 or more) residential properties,residential_housing_development,multifamily,TRUE,RC-C 1.d. Project-level housing finance; repayment from rental income rather than an individual borrower's wages.
+FDIC,LNRENROW,,Loans secured by owner-occupied nonfarm nonresidential properties,commercial_real_estate,owner_occupied_cre,TRUE,RC-C 1.e.(1). Borrower is typically an operating business occupying the property; repayment from business cash flow.
+FDIC,LNRENROT,,Loans secured by other (non-owner-occupied) nonfarm nonresidential properties,commercial_real_estate,investor_cre,TRUE,RC-C 1.e.(2).
+FDIC,LNREAG,,Loans secured by farmland,agriculture,farmland_real_estate,TRUE,RC-C 1.b. Standardized group 'agriculture' added because many rural CDFI banks are agricultural lenders.
+FDIC,LNCI1,LNCI1N,"C&I loans with original amounts of $100,000 or less (RC-C Part II)",microenterprise,ci_orig_le_100k,TRUE,Size-based PROXY for microenterprise lending (CDFI Fund defines microloans as <=$50K to firms with <=5 employees; the Call Report smallest bucket is <=$100K and has no firm-size test). Outstanding balance of loans whose ORIGINAL amount was <=$100K.
+FDIC,LNCI2 + LNCI3,LNCI2N + LNCI3N,"C&I loans with original amounts of $100,001 to $1 million (RC-C Part II)",small_business,ci_orig_100k_1m,TRUE,Regulatory small-business C&I size band. Verified LNCI4 = LNCI1+LNCI2+LNCI3 and LNCI4 <= LNCI for all banks (2026-06-30).
+FDIC,LNCI - LNCI4,,C&I loans with original amounts above $1 million (LNCI minus RC-C Part II total),commercial_business,ci_orig_gt_1m,TRUE,Larger business lending. Derived as total C&I minus small-business C&I.
+FDIC,LNAG,,Loans to finance agricultural production and other loans to farmers,agriculture,agricultural_production,TRUE,RC-C 3.
+FDIC,LNCRCD,,Consumer loans: credit cards,consumer,credit_card,TRUE,RC-C 6.a.
+FDIC,LNCONRP,,Consumer loans: other revolving credit plans,consumer,other_revolving,TRUE,RC-C 6.b. Verified LNCON = LNCRCD + LNCONRP + LNAUTO + LNCONOTH.
+FDIC,LNAUTO,,Consumer loans: automobile loans,consumer,auto,TRUE,RC-C 6.c.
+FDIC,LNCONOTH,,"Consumer loans: other consumer loans (incl. single-payment, installment, student loans)",consumer,other_consumer,TRUE,RC-C 6.d.
+FDIC,LNNDEPC,,Loans to nondepository financial institutions,intermediary_finance,loans_to_nondepository_fi,TRUE,"RC-C 9.a. Reported by only ~2% of banks (mostly large filers); missing (not zero) elsewhere and then included in LNOTHER/other. Includes loans to mortgage companies, finance companies, funds - broader than CDFI-style intermediary lending."
+FDIC,LNOTHER - LNNDEPC,,All other loans (LNOTHER net of loans to nondepository FIs where reported),other,all_other_loans,TRUE,"Where LNNDEPC is not reported, equals LNOTHER (which then still contains any nondepository-FI loans)."
+FDIC,LS,,Lease financing receivables,other,leases,TRUE,RC-C 10. Mix of consumer (auto) and business leases; not split in this field.
+FDIC,LNMUNI,,Obligations (other than securities and leases) of states and political subdivisions,other,municipal,TRUE,RC-C 8.
+FDIC,LNDEP,,Loans to depository institutions and acceptances of other banks,other,depository_institutions,TRUE,RC-C 2.
+FDIC,LNFG,,Loans to foreign governments and official institutions,other,foreign_government,TRUE,RC-C 7. Usually null for small banks (treated as 0 only for additivity checks; stored as missing).
+FDIC,LNCI4,LNCI4N,Memo: C&I loans with original amounts of $1 million or less (RC-C Part II),small_business_memo,ci_original_amount_le_1m,FALSE,Regulatory small-business measure (with LNRENR4). Overlaps microenterprise + small_business C&I rows; NOT additive.
+FDIC,LNRENR4,LNRENR4N,Memo: nonfarm nonresidential RE loans with original amounts of $1 million or less (RC-C Part II),small_business_memo,cre_original_amount_le_1m,FALSE,Overlaps LNRENROW + LNRENROT.
+FDIC,LNAG4,LNAG4N,"Memo: agricultural production loans with original amounts of $500,000 or less (RC-C Part II)",small_farm_memo,ag_original_amount_le_500k,FALSE,Overlaps LNAG.
+FDIC,LNREAG4,LNREAG4N,"Memo: farmland loans with original amounts of $500,000 or less (RC-C Part II)",small_farm_memo,farmland_original_amount_le_500k,FALSE,Overlaps LNREAG.
+NCUA,ACCT_396,ACCT_993,Unsecured credit card loans,consumer,credit_card,TRUE,5300 Statement of Financial Condition loan line 1.
+NCUA,ACCT_397A,ACCT_994A,Payday alternative loans (PAL loans),consumer,payday_alternative,TRUE,Small-dollar loans to members; highly relevant to wage-dependent borrowers.
+NCUA,ACCT_698A,ACCT_963A,Non-federally guaranteed student loans,consumer,student,TRUE,
+NCUA,ACCT_397,ACCT_994,All other unsecured loans/lines of credit,consumer,other_unsecured,TRUE,
+NCUA,ACCT_385,ACCT_958,New vehicle loans,consumer,auto_new,TRUE,
+NCUA,ACCT_370,ACCT_968,Used vehicle loans,consumer,auto_used,TRUE,
+NCUA,ACCT_002,ACCT_954,Leases receivable,consumer,leases,TRUE,Predominantly consumer vehicle leases at credit unions.
+NCUA,ACCT_698C,ACCT_963C,All other secured non-real estate loans/lines of credit,consumer,other_secured_non_re,TRUE,"Share-secured, recreational vehicle, boat etc. (non-commercial)."
+NCUA,ACCT_703A,ACCT_959A,Loans/lines of credit secured by 1st lien 1-4 family residential properties,mortgage_homeownership,first_lien_1_4_family,TRUE,Non-commercial.
+NCUA,ACCT_386A,ACCT_960A,Loans/lines of credit secured by junior lien 1-4 family residential properties,mortgage_homeownership,junior_lien_1_4_family,TRUE,Non-commercial (home equity).
+NCUA,ACCT_386B,ACCT_960B,All other (non-commercial) real estate loans/lines of credit,mortgage_homeownership,other_consumer_real_estate,TRUE,"Non-commercial real-estate loans to members not secured by 1-4 family (e.g., vacant land). Grouped with homeownership as consumer-purpose real estate; small at most CUs."
+NCUA,ACCT_718A5,ACCT_900K4,Commercial loans/lines of credit real estate secured,commercial_real_estate,commercial_re_secured,TRUE,"Includes owner-occupied and non-owner-occupied CRE, multifamily and farmland commercial loans; 5300 line does not separate these. Small owner-occupied CRE loans to member businesses cannot be separated."
+NCUA,ACCT_400P,ACCT_900P,Commercial loans/lines of credit not real estate secured,small_business,member_commercial_not_re_secured,TRUE,Member business (commercial) loans not secured by real estate. NCUA reports no size bands; mapped to small_business by default and reclassified to commercial_business at institution level when the average balance per loan (ACCT_400P/ACCT_900P) exceeds $1M (the regulatory small-business original-amount threshold). Median CU average is ~$66K; 99th percentile ~$1.1M.

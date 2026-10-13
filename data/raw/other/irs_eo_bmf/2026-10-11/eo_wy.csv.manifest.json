@@ -1,0 +1,11 @@
+{
+  "file": "eo_wy.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_wy.csv",
+  "retrieved_at": "2026-10-11T18:30:25+00:00",
+  "sha256": "1254e1ade8602a56ccdf159865c2cbe8f21eff71bad869cb02afc50ed7578026",
+  "bytes": 1027067,
+  "last-modified": "Mon, 07 Sep 2026 04:13:26 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "WY"
+}

@@ -1,0 +1,11 @@
+{
+  "file": "eo_pa.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_pa.csv",
+  "retrieved_at": "2026-10-11T18:30:07+00:00",
+  "sha256": "44f9135f3a2b4d06af6137e580cc43a5e34e0910fd49de12a5072671145a8811",
+  "bytes": 14372101,
+  "last-modified": "Mon, 07 Sep 2026 04:13:13 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "PA"
+}

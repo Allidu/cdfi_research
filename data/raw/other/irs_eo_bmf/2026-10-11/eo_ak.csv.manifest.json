@@ -1,0 +1,11 @@
+{
+  "file": "eo_ak.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_ak.csv",
+  "retrieved_at": "2026-10-11T18:29:08+00:00",
+  "sha256": "187c1ac3ecbab65e9aae06f1f99ee132beed5bb01f06270cc8e123eb5cd2df76",
+  "bytes": 999748,
+  "last-modified": "Mon, 07 Sep 2026 04:12:00 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "AK"
+}

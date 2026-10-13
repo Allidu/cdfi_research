@@ -1,0 +1,11 @@
+{
+  "file": "eo_ks.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_ks.csv",
+  "retrieved_at": "2026-10-11T18:29:41+00:00",
+  "sha256": "6b8b5ff3db33d47e0d1d789be4ecd95d0197291061ee4f518a5dc8a36c8e199c",
+  "bytes": 3163997,
+  "last-modified": "Mon, 07 Sep 2026 04:12:24 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "KS"
+}

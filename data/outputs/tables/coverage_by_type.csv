@@ -1,0 +1,6 @@
+Institution type,N,RSSD on Treasury list,Matched to FDIC (self),Matched to FDIC (subsidiaries),Matched to NCUA,EIN (IRS BMF),Regulatory assets (2026-06-30),Any assets (incl. IRS),Lending mix,Primary focus,Members,Branch footprint,HQ county FIPS,≥1 linked CDFI Fund award
+Bank or Thrift,184,98.9%,100.0%,0.0%,0.0%,0.0%,97.3%,97.3%,97.3%,97.3%,0.0%,97.3%,97.3%,91.8%
+Bank Holding Company,160,99.4%,0.0%,93.1%,0.0%,0.0%,93.1%,93.1%,93.1%,93.1%,0.0%,93.1%,0.0%,60.6%
+Credit Union,367,97.3%,0.0%,0.0%,78.2%,0.0%,77.9%,77.9%,77.9%,77.9%,77.9%,77.9%,77.9%,89.1%
+Loan Fund,561,0.2%,0.0%,0.0%,0.0%,78.8%,0.0%,77.7%,0.0%,86.1%,0.0%,0.0%,0.0%,93.0%
+Venture Capital Fund,9,0.0%,0.0%,0.0%,0.0%,55.6%,0.0%,55.6%,0.0%,100.0%,0.0%,0.0%,0.0%,88.9%

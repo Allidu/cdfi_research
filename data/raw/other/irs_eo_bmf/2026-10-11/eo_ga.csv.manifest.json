@@ -1,0 +1,11 @@
+{
+  "file": "eo_ga.csv",
+  "source_url": "https://www.irs.gov/pub/irs-soi/eo_ga.csv",
+  "retrieved_at": "2026-10-11T18:29:21+00:00",
+  "sha256": "977f508805a8ab7f16550fde5cacc74ebce0a0418b650a1b38ae03a453dbef6b",
+  "bytes": 10705159,
+  "last-modified": "Mon, 07 Sep 2026 04:12:18 GMT",
+  "content-type": "text/csv",
+  "source_page": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+  "state": "GA"
+}

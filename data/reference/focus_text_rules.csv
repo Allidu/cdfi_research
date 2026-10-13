@@ -1,0 +1,47 @@
+rule_id,category,pattern,requires_lending_context,requires_also,note
+CON1,consumer,\bconsumer (loan|lending|credit|financ)\w*,FALSE,,explicit consumer lending
+CON2,consumer,\bpersonal (loan|lending)s?\b,FALSE,,
+CON3,consumer,\b(auto|car|vehicle|automobile) (loan|financ|lending)\w*,FALSE,,
+CON4,consumer,\bcredit[- ]build\w*,FALSE,,credit-builder loans
+CON5,consumer,\b(small[- ]dollar|emergency|payday alternative|debt consolidation|immigration|citizenship|daca|tax refund|refund anticipation|bail|medical debt) loans?\b,FALSE,,
+CON6,consumer,\b(student|education|educational) loans?\b,FALSE,,
+CON7,consumer,\bloans? (to|for) (low[- ]income |low[- ]to[- ]moderate[- ]income |working |struggling )?(individuals|families|households|people|consumers|employees|workers)\b,FALSE,,
+CON8,consumer,\b(predatory|high[- ]cost|payday) (lend|loan)\w*,FALSE,,alternatives to predatory lending usually signal consumer products
+MIC1,microenterprise,\bmicro[- ]?(loan|lend|credit|enterprise|business|financ|entrepreneur)\w*,FALSE,,microloans / microenterprise
+MIC2,microenterprise,\b(sole proprietor|self[- ]employ)\w*,TRUE,,
+MIC3,microenterprise,\b(start[- ]?up|very small|home[- ]based) (business|enterprise)\w*,TRUE,,
+SB1,small_business,\bsmall[- ]business\w*,TRUE,,
+SB2,small_business,\bbusiness (loan|lending|financ|credit)\w*,FALSE,,
+SB3,small_business,\b(loans?|lending|financing|capital|credit) (to|for) (small |local |new |minority[- ]owned |women[- ]owned |rural |existing |underserved )*(business|entrepreneur|enterprise|firm),FALSE,,
+SB4,small_business,\bentrepreneur\w*,TRUE,,
+SB5,small_business,\b(sba|7\(a\)|504 loan|community advantage|working capital|equipment (loan|financ))\w*,TRUE,,
+SB6,small_business,(?<!financial )(?<!credit union )\bcooperative\w*,TRUE,,lending to worker/consumer cooperatives treated as enterprise lending
+COM1,commercial_business,\b(middle[- ]market|mid[- ]?size\w* (business|compan)|manufactur\w*|larger (business|compan)),TRUE,,
+COM2,commercial_business,\bcommercial (loan|lending)s?\b,FALSE,,
+MTG1,mortgage_homeownership,\bmortgage\w*,FALSE,,excluded when commercial/multifamily mortgage (see EXCL rules)
+MTG2,mortgage_homeownership,\b(home ?buyer|home ?ownership|homeowner|home purchase|first[- ]time buyer)\w*,TRUE,,
+MTG3,mortgage_homeownership,\bdown[- ]?payment\w*,FALSE,(home|hous|mortgage|buyer),down payment only counts in a housing sentence (business loans also mention down payments)
+MTG4,mortgage_homeownership,\b(home|house|housing) (repair|improvement|rehab|renovation)\w*,TRUE,,
+MTG5,mortgage_homeownership,\b(manufactured|mobile|modular) homes?\b,TRUE,,
+HSG1,residential_housing_development,\b(multi[- ]?family|rental housing|apartments?|lihtc|low[- ]income housing tax credit|housing developers?|housing development|housing projects?|predevelopment|pre-development|supportive housing|housing preservation|affordable rental)\b,TRUE,,
+HSG2,residential_housing_development,\baffordable housing\b,TRUE,,generic 'affordable housing' with lending language; may include homeownership
+HSG3,residential_housing_development,\b(acquisition|construction|bridge) (and |& )?(predevelopment |development |rehabilitation )?(loan|financ)\w*,TRUE,hous,construction/acquisition finance in a housing sentence
+CRE1,commercial_real_estate,\b(commercial real estate|mixed[- ]use|commercial (property|properties|development|projects?|space)|real estate development|retail (space|development|centers?)|new markets tax credit|nmtc|economic development projects?)\b,TRUE,,
+CRE2,commercial_real_estate,\b(acquisition|construction|bridge) (and |& )?(predevelopment |development |rehabilitation )?(loan|financ)\w*,TRUE,(commercial|real estate|facilit|propert),construction/acquisition finance in a non-housing real-estate sentence
+CF1,community_facilities,\bcommunity facilit\w*,TRUE,,
+CF2,community_facilities,\b(health (center|clinic|care facilit)\w*|fqhc|charter schools?|child ?care|early (care|childhood|learning)|head start|nonprofit (facilit|organization)\w*|loans? to nonprofits|community (center|space)s?|grocer\w*|healthy food|food (access|retail|enterprise)\w*),TRUE,,child care and food retail also overlap small business
+INT1,intermediary_finance,\b(loans?|lend\w*|capital|invest\w*|financing) (to|in) (other )?(cdfis|community development financial institutions|community (development )?lenders|loan funds|credit unions|nonprofit lenders|intermediar\w*|mission lenders)\b,FALSE,,
+INT2,intermediary_finance,\b(intermediar(y|ies)|wholesale lend\w*|loan participations?|on[- ]lend\w*)\b,TRUE,,
+VEN1,venture_equity,\b(venture capital|venture fund|equity (investment|capital|financing|stake)s?|seed (capital|investment|funding)|near[- ]equity|royalty[- ]based|convertible (note|debt)|subordinated debt investments?)\b,FALSE,,
+AG1,agriculture,\b(farm(s|ers|ing|land)?|agricultur\w*|ranch\w*|fisher\w*|food producers?)\b,TRUE,,
+EXCL1,mortgage_homeownership,\b(commercial|multi[- ]?family|construction|permanent) mortgage\w*,FALSE,,EXCLUSION: removes MTG1 matches in the same sentence
+CON9,consumer,\bassistive technology\b,TRUE,,alternative financing programs for assistive technology (loans to individuals with disabilities)
+CON10,consumer,"\b(purchase|buy|own) (a |an )?([\w-]+ ){0,3}(vehicles?|cars?)\b",FALSE,,vehicle purchase programs
+CON11,consumer,\bconsumers?\b,TRUE,,
+SB7,small_business,\bbusinesses\b,TRUE,,lending to 'businesses' (plural) is overwhelmingly small-business lending at loan funds
+MTG6,mortgage_homeownership,"\b(rehabilitat\w+|repair\w*|renovat\w+) of [\w\s-]{0,30}\bhomes?\b",TRUE,,
+CF3,community_facilities,\b(health ?care providers?|hospitals?|rural health|clinics?)\b,TRUE,,
+CF4,community_facilities,\b(to|for|with) (the )?nonprofit(s| sector| organizations| partners)\b,TRUE,,lending to nonprofits (not self-description)
+CRE3,commercial_real_estate,\b(downtown|capital projects|commercial buildings?|main street)\b,TRUE,,
+INT3,intermediary_finance,\b(loans?|lend\w*|capital|invest\w*|financing) (to|in) (other )?(mission[- ]aligned )?(financial institutions|cdfis)\b,FALSE,,
+INT4,intermediary_finance,\b(credit unions|financial cooperatives|community[- ]based financial institutions|cdfi loan funds|community development lenders)\b,TRUE,,support/lending to other community lenders

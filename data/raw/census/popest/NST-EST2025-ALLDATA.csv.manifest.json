@@ -1,0 +1,10 @@
+{
+  "file": "NST-EST2025-ALLDATA.csv",
+  "source_url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+  "retrieved_at": "2026-10-11T18:37:59+00:00",
+  "sha256": "92188e29cb0a67dcf95afa7d6c47359409782f086478b70ea4128eb70e223ca9",
+  "bytes": 53555,
+  "last-modified": "Tue, 27 Jan 2026 13:45:29 GMT",
+  "content-type": "text/csv",
+  "vintage": 2025
+}

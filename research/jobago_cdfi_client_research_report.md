@@ -10,7 +10,7 @@
 
 **Objective.** Jobago is exploring whether Community Development Financial Institutions (CDFIs) could offer its career-transition services to borrowers whose ability to repay depends on their jobs. This research asked a structural question that comes before choosing partners: *what kinds of CDFIs exist, what do they lend for, how large are they, and which groups of them have borrowers whose repayment is plausibly tied to employment income?*
 
-**What we did.**
+**What we did:**
 - Built a reproducible dataset of all **1,281 CDFIs certified by the U.S. Treasury CDFI Fund** as of 17 September 2026.
 - Linked each CDFI to public regulatory and tax records:
   - FDIC bank Call Reports
@@ -43,14 +43,14 @@
    - They are small: median total assets are about $19 million.
 5. **277 CDFIs are primarily mortgage/homeownership lenders.** This count includes 49 bank holding companies that duplicate separately listed subsidiary banks; there are 228 distinct lenders after removing that overlap.
 
-**Implications for Jobago.** These are hypotheses, not validated conclusions. Three groups warrant deeper investigation because their borrowers are individuals or owner-operators whose repayment is plausibly tied to personal earnings:
+**Implications for Jobago:** Three groups warrant deeper investigation because their borrowers are individuals or owner-operators whose repayment is plausibly tied to personal earnings:
 - **consumer-focused credit unions**: the strongest fit on available evidence
 - **microenterprise and small-business loan funds**: a plausible but more complex fit
 - **mortgage and homeownership lenders**: plausible, but repayment risk is long-dated and often managed through servicing
 
 Commercial real estate, development finance, intermediary and venture CDFIs have weaker direct links to an individual's job.
 
-**What remains unvalidated.** The segments describe *what CDFIs lend for*; they are **not a ranking of Jobago customers**. We have not yet measured:
+**What remains unvalidated:** The segments describe *what CDFIs lend for*; they are **not a ranking of Jobago customers**. We have not yet measured:
 - digital capability or existing borrower-support programs
 - partnership activity or budget
 - willingness to buy
@@ -74,8 +74,6 @@ There is no evidence yet that job-loss support improves CDFI repayment outcomes.
 - scoring institutions for Jobago attractiveness
 - researching technology, coaching or hardship programs
 - interviewing CDFIs
-
-These are deliberately deferred (Section 10).
 
 ---
 
@@ -281,7 +279,7 @@ The 25% threshold is a project-defined cut-off. The overall classification confi
 
 No formal accuracy rate has been measured.
 
-**Worked examples (actual records).**
+**Worked examples:**
 - **Community Capital of Vermont → Microenterprise (HIGH), segment B.**
   - Its only Part III program (100% of program expenses) states: *"Community Capital of Vermont is a statewide small business and microenterprise lender serving low and moderate income entrepreneurs."*
   - It is also an SBA Microloan intermediary.
